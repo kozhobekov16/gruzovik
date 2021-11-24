@@ -25,8 +25,17 @@ $offFont: 'Montserrat', sans-serif;
 .navbar-area {
   background: black;
   border-bottom: 1px solid #000;
+  .menu{
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 15px 8rem 15px 8rem;
+    z-index: 99;
+  }
 }
 .site-navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,7 +105,8 @@ a img {
   background-image: url("../image/front-view-truck 1.png");
   background-repeat: no-repeat;
   background-position: right;
-  height: 65vh;
+  padding-top: 5rem;
+  height: 93vh;
   background-color: #040404;
   .price{
     background-color: $offColor;
@@ -267,9 +277,9 @@ a img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0 10rem 0 10rem;
+    padding: 0 1rem 0 1rem;
     img{
-      padding: 40px;
+      padding: 30px;
     }
   }
 }
@@ -691,6 +701,18 @@ footer{
           font-size: 10px;
         }
       }
+    }
+  }
+  .navbar-area {
+    background: black;
+    border-bottom: 1px solid #000;
+    .menu{
+      background-color: #000;
+      position: fixed;
+      left: 0;
+      right: 0;
+      padding: 15px 10px 15px 10px;
+      z-index: 99;
     }
   }
 }

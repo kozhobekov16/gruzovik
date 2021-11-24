@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -14,17 +14,17 @@
 </head>
 
 <body>
-    <header class="header-area">
+    <header id="home" class="header-area">
         <div class="navbar-area">
-            <div class="container">
+            <div class="menu">
                 <nav class="site-navbar">
                     <a href="#home" class="site-logo"><img src="image/logo.png" alt="logo"></a>
                     <ul>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Услуги</a></li>
-                        <li><a href="#">Рассценки</a></li>
-                        <li><a href="#">Наши преимущества</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#aboutus">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#price">Рассценки</a></li>
+                        <li><a href="#we-offer">Наши преимущества</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                     </ul>
                     <button class="nav-toggler">
                         <span></span>
@@ -37,11 +37,14 @@
                 <h2 class="fw-bold">Доставим ваш груз <br />
                     в любую точку Кыргызстана</h2>
                 <p>Осуществляем перевозки грузов по всему Кыргызстану</p>
-                <button class="price">Рассчитать стоимость</button>
+                <form action="https://api.whatsapp.com/send/?phone=996 500 660 404" target="_blank"> 
+                    <button  type="submit" class="price">Рассчитать стоимость</button>
+
+                  </form>
             </div>
         </div>
     </header>
-    <section class="services container">
+    <section id="services" class="services container">
         <h1 class="text-center fw-bold">Услуги</h1>
         <div class="blocks">
             <div class="block1">
@@ -93,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section class="gruz">
+    <section id="price" class="gruz">
         <h1>Сборные грузы по Кыргызстану</h1>
         <p>*Сборные перевозки — это перевозки мелкогабаритных грузов различных заказчиков в одном направлении на одном
             транспортном средстве.</p>
@@ -144,35 +147,37 @@
                 </div>
             </div>
         </div>
-        <button>Узнать больше</button>
+        <form action="https://api.whatsapp.com/send/?phone=996500660404" target="_blank"> 
+            <button  type="submit" class="price">Узнать больше</button>
+          </form>
     </section>
-    <section class="offer container">
+    <section id="we-offer" class="offer container">
         <h1>Наши преимущества:</h1>
         <div class="image">
             <img src="./image/Line 12.png" alt="line">
         </div>
         <div class="blocks-offer">
             <div>
-                <img src="./image/we-offer/🚛 Собственный автопарк -портер; - грузовые автомобили; - спринтеры.png">
+                <img src="./image/we-offer/1.png" alt="">
             </div>
             <div>
-                <img src="./image/we-offer/👛 Фиксированные цены на услуги.png">
+                <img src="./image/we-offer/2.png" alt="">
             </div>
             <div>
-                <img src="./image/we-offer/👍🏻 Надёжно упакуем ваши вещи.png">
+                <img src="./image/we-offer/3.png" alt="">
             </div>
             <div>
-                <img src="./image/we-offer/⌚ Приедем в течении 30 минут.png">
+                <img src="./image/we-offer/4.png" alt="">
             </div>
             <div>
-                <img src="./image/we-offer/7.png">
+                <img src="./image/we-offer/5.png" alt="">
             </div>
         </div>
         <div class="image pt-4">
             <img src="./image/Line 12.png" alt="line">
         </div>
     </section>
-    <section class="form container">
+    <section id="contacts" class="form container">
         <h1 class="text-center">СВЯЗАТЬСЯ С НАМИ</h1>
         <p class="text-center">Осуществляем перевозки грузов по всему Кыргызстану</p>
         <form>
@@ -189,15 +194,17 @@
                     <span>Номер телефона</span>
                     <input type="number" />
                   </label>
-                  <button type="button" class="submit fw-bold">Узнать больше</button>
+                  <form action="https://api.whatsapp.com/send/?phone=996500660404" target="_blank"> 
+                    <button  type="submit" class="submit fw-bold price">Узнать больше</button>
+                  </form>
                 </div>
         </form>
     </section>
-    <section class="map">
+    <section class="map" id="aboutus">
         <div class="blocks">
             <div class="block1">
                 <h1 class="fw-bold">GROZOVIK</h1>
-                <p>г. Бишкек, ул. Раззакова, 19 <br/> Бизнес центр"Россия" 11 этаж, кабинет 1102 <br/> ТЕЛЕФОН: +996 555 57 99 77 <br/> +996 312 96 19
+                <p>г. Бишкек, ул. Раззакова, 19 <br/> Бизнес центр"Россия" 11 этаж, кабинет 1102 <br/> ТЕЛЕФОН:  <a href="https://api.whatsapp.com/send/?phone=996 500 660 404" target="_blank">+996 500 660 404</a>  <br/> <a href="mailto:Uluwka-24@mail.ru" target="_blank">Email: Uluwka-24@mail.ru</a> 
                 </p>
                 <a href="https://go.2gis.com/oiy7x">https://go.2gis.com/oiy7x</a>
             </div>
